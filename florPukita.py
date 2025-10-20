@@ -44,10 +44,11 @@ for i in range(160 + 40):
     if i < 160:
         turtle.dot(10, "brown")  # Dibuja un círculo en lugar de usar la forma de tortuga
 
-# Texto final
+# Limpia la pantalla y muestra el texto final centrado
+turtle.clear()
 turtle.penup()
-turtle.goto(0, 300)
+turtle.goto(0, 0)
 turtle.color("White")
-turtle.write("Buenas días pukita", align="center", font=("Arial", 24, "bold"))
+turtle.write("Buenas días pukita 😁", align="center", font=("Arial", 24, "bold"))
 turtle.hideturtle()
 turtle.exitonclick()
